@@ -10,8 +10,9 @@ Works:
 - ADB
 - Decryption of /data
 - Screen brightness settings
-- Vibration on touch 
-- Correct screenshot color 
+- Now UI is very smooth
+- Vibration on touch
+- Correct screenshot color
 
 ## Compile
 
@@ -25,7 +26,7 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/dipper" name="mauronofrio/android_device_xiaomi_dipper" remote="github" revision="android-9.0" />
+<project path="device/xiaomi/dipper" name="LucyfMorning/twrp_xiaomi_dipper" remote="github" revision="android-9.0" />
 ```
 
 Finally execute these:
