@@ -38,8 +38,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=dipper \
     BUILD_PRODUCT=dipper \
     PRODUCT_NAME=dipper
-
-# Blacklist Properties
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.build.date \
-    ro.build.date.utc

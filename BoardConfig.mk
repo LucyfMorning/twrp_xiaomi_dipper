@@ -74,11 +74,6 @@ TARGET_PREBUILT_KERNEL := device/xiaomi/dipper/Image.gz-dtb
 TARGET_BOARD_PLATFORM := sdm845
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
 
-#Init
-TARGET_INIT_VENDOR_LIB := libinit_dipper
-TARGET_RECOVERY_DEVICE_MODULES := libinit_dipper
-TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
-
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144
 
