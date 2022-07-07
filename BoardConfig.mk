@@ -23,6 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
+ALLOW_MISSING_DEPENDENCIES := true
 LOCAL_PATH := device/xiaomi/dipper
 
 # Architecture
@@ -111,7 +112,7 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
-TW_MAX_BRIGHTNESS := 4095
+TW_MAX_BRIGHTNESS := 1023
 TW_DEFAULT_BRIGHTNESS := 420
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
